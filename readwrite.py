@@ -8,7 +8,6 @@ print(my_name)
 
 # write hello.txt with greeting and name
 with open('hello.txt', 'w') as f:
-    f.write('hello, my name is ')
-    f.write(my_name)
+    f.write('hello, my name is ' + my_name)
     f.write('\n')
 
