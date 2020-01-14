@@ -6,6 +6,7 @@ with open('name.txt') as f:
 # check if correctly read
 print(my_name)
 
+# write hello.txt with greeting and name
 with open('hello.txt', 'w') as f:
     f.write('hello, my name is ')
     f.write(my_name)
